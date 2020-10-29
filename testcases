@@ -1,0 +1,17 @@
+//POST
+//No duplicates allowed
+{"book":"The amazing book"}
+//DELETE 
+//404 on not found
+{"book": "The amazing book"}
+//PATCH 
+//404 on not found
+//409 if exists
+{"original_book": "The amazing book", "new_book" : "The even better book"}
+//GET 
+//Returns the array stored in server memeory as string seperated by comma
+//PUT 
+[{"book": "The amazing boo"},
+{"book": "Wow what a book"}]
+
+
